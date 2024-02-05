@@ -5,3 +5,6 @@ allure serve/generate *path-allure*
 ________________________________________
 JENKINS
 docker run -u 0 -p 8080:8080 -p 50000:50000 --restart=on-failure -v /home/ic3light/jenkins_fold/:/var/jenkins_home jenkins/jenkins:lts-jdk17
+after settings ->
+docker run -u 0 -p 8080:8080 -p 50000:50000 --restart=on-failure -v /home/ic3light/jenkins_fold/:/var/jenkins_home jenkinslocal
+
