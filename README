@@ -1,0 +1,3 @@
+docker build -t *name* .
+docker run -- rm -v /home*papka s seivami allure*/:/allure-results *name*
+allure serve/generate *path-allure*
